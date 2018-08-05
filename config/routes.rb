@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
+<<<<<<< HEAD
   get 'sessions/create'
 
+=======
+>>>>>>> 107fc5db5ca294cb79dd693280c7f38587d37743
   get 'sessions_controller/create'
 
   root 'welcome#home'
